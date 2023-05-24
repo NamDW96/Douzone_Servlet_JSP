@@ -27,7 +27,6 @@
 	<c:set var="userpwd" value="${param.pwd}" />
 	
 	<h3>변수값 출력</h3>
-	id:${userid}<br>
 	pwd:${userpwd}<br>
 	<hr>
 	<c:if test="${!empty userpwd}"> <!-- 비번이 있으면 -->
