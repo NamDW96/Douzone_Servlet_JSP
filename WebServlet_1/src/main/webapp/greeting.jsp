@@ -7,10 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h3>simpleController에서 전달된(request) 데이터 출력</h3>
-	결과출력 : <%= request.getAttribute("result") %>
+	<h3>greeting.jsp 페이지입니다.</h3>
+	<hr>
+	결과출력 : <%= request.getAttribute("msg") %>
+	<hr>
+	결과출력 : <%= request.getAttribute("msgobj") %>
+	<hr>
 	
-	<h3>EL</h3>
-	${requestScope.result}<br>
+	EL : ${requestScope.msg}<br>
+	
 </body>
 </html>
