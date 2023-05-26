@@ -56,6 +56,9 @@
 <a href='memo.html'>글쓰기</a>
 
 </body>
+<script>
+	
+</script>
 </html>
 
 

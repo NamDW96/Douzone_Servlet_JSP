@@ -41,6 +41,7 @@ public class MemoServlet extends HttpServlet {
     	  //out.print(id + "," + email + "," + memo);
     	  
     	  
+    	  
     	  try{
     		  MemoDao dao = new MemoDao();
     		  int n = dao.insertMemo(new Memo(id,email,memo));
